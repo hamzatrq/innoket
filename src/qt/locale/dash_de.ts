@@ -2182,8 +2182,8 @@ https://www.transifex.com/projects/p/innoket/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="101"/>
-        <source>Enter a Innoket address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>Innoket-Adresse eingeben (z.B. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+        <source>Enter a Innoket address (e.g. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>Innoket-Adresse eingeben (z.B. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
 </context>
 <context>
@@ -2932,8 +2932,8 @@ Dies kann passieren, wenn einige Innoket aus ihrer Wallet bereits ausgegeben wur
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="54"/>
-        <source>The address to send the payment to (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>Die Adresse an die die Zahlung überwiesen werden soll (z.B. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg).</translation>
+        <source>The address to send the payment to (e.g. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>Die Adresse an die die Zahlung überwiesen werden soll (z.B. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg).</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="61"/>
@@ -3049,8 +3049,8 @@ Dies kann passieren, wenn einige Innoket aus ihrer Wallet bereits ausgegeben wur
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="48"/>
-        <source>The address to sign the message with (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>Die Adresse mit der die Nachricht signiert wird (z.B. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg).</translation>
+        <source>The address to sign the message with (e.g. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>Die Adresse mit der die Nachricht signiert wird (z.B. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg).</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="55"/>
@@ -3122,8 +3122,8 @@ Dies kann passieren, wenn einige Innoket aus ihrer Wallet bereits ausgegeben wur
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="258"/>
-        <source>The address the message was signed with (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>Die Adresse mit der die Nachricht signiert wurde (z.B. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg).</translation>
+        <source>The address the message was signed with (e.g. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>Die Adresse mit der die Nachricht signiert wurde (z.B. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg).</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
@@ -3147,8 +3147,8 @@ Dies kann passieren, wenn einige Innoket aus ihrer Wallet bereits ausgegeben wur
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
-        <source>Enter a Innoket address (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
-        <translation>Innoket-Adresse eingeben (z.B. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
+        <source>Enter a Innoket address (e.g. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</source>
+        <translation>Innoket-Adresse eingeben (z.B. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="114"/>
