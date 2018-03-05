@@ -79,7 +79,7 @@ function CreateConfDir {
 
 # "Spenders" 1/2/3
 D1=${D}/node1
-CreateConfDir $D1 port=11000 rpcport=11001 addnode=127.0.0.1:11030
+CreateConfDir $D1 port=37658 rpcport=11001 addnode=127.0.0.1:11030
 B1ARGS="-datadir=$D1"
 $BITCOIND $B1ARGS &
 B1PID=$!
@@ -89,7 +89,7 @@ B2ARGS="-datadir=$D2"
 $BITCOIND $B2ARGS &
 B2PID=$!
 D3=${D}/node3
-CreateConfDir $D3 port=11020 rpcport=11021 addnode=127.0.0.1:11030 addnode=127.0.0.1:11000
+CreateConfDir $D3 port=11020 rpcport=11021 addnode=127.0.0.1:11030 addnode=127.0.0.1:37658
 B3ARGS="-datadir=$D3"
 $BITCOIND $BITCOINDARGS $B3ARGS &
 B3PID=$!

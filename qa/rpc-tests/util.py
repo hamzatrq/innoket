@@ -20,8 +20,8 @@ import time
 from bitcoinrpc.authproxy import AuthServiceProxy, JSONRPCException
 from util import *
 
-START_P2P_PORT=11000
-START_RPC_PORT=11100
+START_P2P_PORT=37658
+START_RPC_PORT=37659
 
 def check_json_precision():
     """Make sure json library being used does not lose precision converting BTC values"""

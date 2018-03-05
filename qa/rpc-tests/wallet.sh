@@ -24,19 +24,19 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 D=$(mktemp -d test.XXXXX)
 
 D1=${D}/node1
-CreateDataDir "$D1" port=11000 rpcport=11001
+CreateDataDir "$D1" port=37658 rpcport=11001
 B1ARGS="-datadir=$D1"
 $BITCOIND $B1ARGS &
 B1PID=$!
 
 D2=${D}/node2
-CreateDataDir "$D2" port=11010 rpcport=11011 connect=127.0.0.1:11000
+CreateDataDir "$D2" port=11010 rpcport=11011 connect=127.0.0.1:37658
 B2ARGS="-datadir=$D2"
 $BITCOIND $B2ARGS &
 B2PID=$!
 
 D3=${D}/node3
-CreateDataDir "$D3" port=11020 rpcport=11021 connect=127.0.0.1:11000
+CreateDataDir "$D3" port=11020 rpcport=11021 connect=127.0.0.1:37658
 B3ARGS="-datadir=$D3"
 $BITCOIND $BITCOINDARGS $B3ARGS &
 B3PID=$!
