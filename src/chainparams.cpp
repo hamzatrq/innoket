@@ -62,7 +62,7 @@ public:
         hashGenesisBlock = genesis.GetHash();
 
         assert(hashGenesisBlock == uint256("0x00000f639db5734b2b861ef8dbccc33aebd7de44d13de000a12d093bcc866c64"));
-        assert(genesis.hashMerkleRoot == uint256("0xfa6ef9872494fa9662cf0fecf8c0135a6932e76d7a8764e1155207f3205c7c88"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
         vSeeds.push_back(CDNSSeedData("seed1.innoket.org", "seed1.innoket.org"));
         vSeeds.push_back(CDNSSeedData("seed2.innoket.org", "seed2.innoket.org"));
