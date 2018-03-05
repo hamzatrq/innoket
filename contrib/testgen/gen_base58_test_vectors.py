@@ -15,7 +15,7 @@ import random
 from binascii import b2a_hex
 
 # key types
-PUBKEY_ADDRESS = 76
+PUBKEY_ADDRESS = 41
 SCRIPT_ADDRESS = 16
 PUBKEY_ADDRESS_TEST = 139
 SCRIPT_ADDRESS_TEST = 19

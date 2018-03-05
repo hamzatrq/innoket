@@ -425,7 +425,7 @@ public:
 #endif // QT_NO_TOOLTIP
         payToLabel->setText(QApplication::translate("SendCoinsEntry", "Pay &To:", 0));
 #ifndef QT_NO_TOOLTIP
-        payTo->setToolTip(QApplication::translate("SendCoinsEntry", "The address to send the payment to (e.g. XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)", 0));
+        payTo->setToolTip(QApplication::translate("SendCoinsEntry", "The address to send the payment to (e.g. iwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg)", 0));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
         addressBookButton->setToolTip(QApplication::translate("SendCoinsEntry", "Choose previously used address", 0));
