@@ -30,10 +30,10 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0xa3;
-        pchMessageStart[1] = 0xd2;
-        pchMessageStart[2] = 0x7a;
-        pchMessageStart[3] = 0x03;
+        pchMessageStart[0] = 0xc3;
+        pchMessageStart[1] = 0x95;
+        pchMessageStart[2] = 0xcd;
+        pchMessageStart[3] = 0xff;
         vAlertPubKey = ParseHex("04c5788ca1e268a7474763fa965210b6fa6b04a45f52d21056c62fb19a2de991aa15aa1d1c516f34d2a0016f51a87959c89f51a148db30c839f71bc525dde8c480");
         nDefaultPort = 11994;
         nRPCPort = 11995;
@@ -55,14 +55,14 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1390078220;
+        genesis.nTime    = 1520327318;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 2099366979;
+        genesis.nNonce   = 2100802123;
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x00000f639db5734b2b861ef8dbccc33aebd7de44d13de000a12d093bcc866c64"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x0000016ef751134182e778fcb24208e1a6da1b7621c08582110b4f9693bff3b6"));
+        assert(genesis.hashMerkleRoot == uint256("0x0974b3d431bcafd8d2d63fc48cedebee2420b85e8be92b4dac3cf3719ae81892"));
 
         vSeeds.push_back(CDNSSeedData("seed1.innoket.org", "seed1.innoket.org"));
         vSeeds.push_back(CDNSSeedData("seed2.innoket.org", "seed2.innoket.org"));
@@ -141,7 +141,7 @@ public:
         genesis.nNonce = 423087994;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x0000082f5939c2154dbcba35f784530d12e9d72472fcfaf29674ea312cdf4c83"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
