@@ -26,7 +26,7 @@ class DomainName(str):
         return DomainName(item + '.' + self)
 
 DOMAN_NAME = 'dnsseed1.innoket.org'
-IP = '52.89.51.214'
+IP = '127.0.0.1'
 NS = "ns1.innoket.org"
 D = DomainName(DOMAN_NAME)
 
